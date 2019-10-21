@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>Contact</title>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  	<link href="style.css" rel="stylesheet">
+    	<link rel="icon" href="img/favicon-2.ico">
+  	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar navbar-light bg-light sticky-top">
+
+      <div class="container-fluid">
+      <a class="navbar-brand" href="">CS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Projects.html">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">ABOUT</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link active" href="#">CONTACT</a>
+
+
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+<br>
+
+    <div id="slides" class="carousel slide" data-ride="carousel">
+  		<ul class="carousel-indicators">
+  			<li data-target="#slides" data-slide-to="0" class="active"></li>
+
+  		</ul>
+  	<div class="carousel-inner">
+  		<div class="carousel-item active">
+  			<img src="img/background4.png">
+
+
+  	</div>
+  	</div>
+
+    <br>
+
+
+<section class="contactSection">
+
+
+    <div class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h4 class="display-5" class="footer_title">Contact me</h4>
+
+        </div>
+    <hr>
+        <div class="col-12" >
+          <p class="card-text"><small class="text-muted">
+
+            If you need to contact me for questions or inquiries, please fill out the form below and I will get back ASAP
+
+            </small>
+
+          </p>
+          <br>
+        </div>
+      </div>
+    </div>
+
+
+
+
+<div class="container">
+
+ <div class="row"
+
+
+          <div class="col-sm-6 text-left" class="col-sm">
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                    <h4 class="text-left">Adress</h4>
+                    <br>
+                </li>
+                  <li>
+                      <p><i class="fas fa-map-marker-alt fa-2x"></i>  &nbsp Irvine, CA 92614, USA</p>
+                  </li>
+
+                  <li>
+                      <p><i class="fas fa-phone mt-4 fa-2x"></i> &nbsp +1 510 398 3414</p>
+                  </li>
+
+                  <li>
+                      <p><i class="fas fa-envelope mt-4 fa-2x"></i> &nbsp 4051cman@gmail.com</p>
+                  </li>
+                  <li>
+                      <p><i class="fas fa-envelope mt-4 fa-2x"></i> &nbsp wwww.carter.com</p>
+                  </li>
+              </ul>
+          </div>
+
+        </div>
+
+<div class="row">
+
+<div class="col">
+
+
+
+
+      <div class="contact-box">
+
+            <!--Grid column-->
+            <div class="col-md-8 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control" placeholder="Email">
+
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="6" class="form-control md-textarea" placeholder="Message"></textarea>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left" class="SendColor">
+                    <a class="btn btn-primary"  class="SendColor" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status" class="SendColor"></div>
+            </div>
+
+          </div>
+            <!--Grid column-->
+
+        </div>    <!--Grid column-->
+  </div>
+            <!--Grid column-->
+
+
+        </div>
+
+      </section>
+
+<br>
+      <section>
+
+        <p>Send Email</p>
+        <form action="contactform.php" method="post" class="contact-form">
+          <input type="text" name="name" placeholder="Full name">
+          <input type="text" name="mail" placeholder="Your e-mail">
+          <input type="text" name="subject" placeholder="Subject">
+          <textarea name="message" placeholder="Message"></textarea>
+          <button type="submit" name="submit">SEND</button>
+        </form>
+
+
+
+
+      </section>
+
+
+
+<br>
+
+        <footer>
+
+      	<div class="container-fluid padding">
+      	<div class="row text-center">
+      		<div class="col-sm-3">
+      			<h5 class="special_title">About Carter</h5>
+      			<p class="special_style">I am pursuing my education in Aersospace Enginnering
+      			With my detailed background in ....
+      			I am familiar with CAD such as Solidworks and have exposure with languages such as Matlab and C programming and other languages.</p>
+
+      		</div>
+      		<div class="col-sm-3">
+      			<h5 class="footer_title">LANGUAGES</h5>
+      			<p class="footer_type">C Programming</p>
+      			<p class="footer_type">Swift</p>
+      			<p class="footer_type">Matlab</p>
+      			<p class="footer_type">HTML and CSS</p>
+
+      		</div>
+      		<div class="col-sm-3">
+      			<h5 class="footer_title">CONTACT</h5>
+      			<p class="footer_type">Oakland, California</p>
+      			<p class="footer_type">+ 510 398 3414</p>
+      			<p class="footer_type">carterman4051@gmail.com</p>
+      			<p class="footer_type">Carterman.com</p>
+
+      		</div>
+      		<div class="col-sm-3">
+      			<h5 class="footer_title">LINKS</h5>
+            <a href="index.html"><p class="footer_type">Home</p></a>
+						<a href="Projects.html"><p class="footer_type">Projects</p></a>
+						<a href="About.html"><p class="footer_type">About</p></a>
+						<a href="#"><p class="footer_type">Contact</p></a>
+      		</div>
+
+      	</div>
+      	</div>
+
+
+      	</footer>
+
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" class="text-center" id="exampleModalLongTitle">SNAPCHAT</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body" class="snapcahtSize">
+                <div class="text-center" class="snapcahtSize">
+                  <img src="img/snapchat.png" class="rounded" alt="..." class="snapcahtSize">
+                </div>
+                <br>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+        <section>
+
+
+
+          <div class="container-fluid padding">
+        	<div class="row text-center padding">
+        		<div class="col-6">
+
+        		</div>
+
+        		<div class="col-12 social padding" style="font-size: 0.5rem" class ="social">
+
+        			<a href="https://www.facebook.com/carter.stambaugh.9"><i class="fab fa-facebook-square fa-sm" style="color:black;"></i></a>
+        			<a href="https://twitter.com/MrCarte50417752" title="TWITTER"><i class="fab fa-twitter fa-sm" style="color:black;"></i></a>
+        			<a href="https://www.linkedin.com/in/carter-stambaugh-98595a145/"><i class="fab fa-linkedin-in fa-sm" style="color:black;"></i></a>
+        			<a href="https://www.instagram.com/carterman1231/"><i class="fab fa-instagram fa-sm" style="color:black;"></i></a>
+        			<a href="#"><i class="fab fa-youtube fa-sm" style="color:black;"></i></a>
+        			<a><i data-toggle="modal" data-target="#exampleModalCenter" class="fab fa-snapchat-ghost fa-sm" style="color:black;"></i></a>
+        		</div>
+        	</div>
+        	</div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+        </section>
+
+  </body>
+</html>
+
+<script>
+
+console.log('Hello World');
+
+</script>
