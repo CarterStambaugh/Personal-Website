@@ -4,44 +4,56 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projects</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <title>Carter</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
   <link href="style.css" rel="stylesheet">
-  	<link rel="icon" href="img/favicon-2.ico">
   <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+  <link rel="stylesheet" href="animate.css">
+  <link rel="icon" href="img/favicon-2.ico">
 </head>
 
 <body>
 
+  <div id="barba-wrapper">
+	  <div class="barba-container">
+
+  <header>
+
+  <!-- Navigation -->
+
   <nav class="navbar navbar-expand-md navbar navbar-light bg-light sticky-top">
 
+    <a class="navbar-brand" >C S •</a>
+
+
     <div class="container-fluid">
-    <a class="navbar-brand" href="">CS</a>
+
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="collapse navbar-collapse" id="navbarResponsive" class="sortable">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">HOME</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link active" href="Projects.html">PROJECTS</a>
+            <a class="nav-link active"  href="Projects.html" class="sortable">PROJECTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="About.html">ABOUT</a>
+            <a class="nav-link" href="About.html" class="sortable">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Contact.html">CONTACT</a>
-
-
+            <a class="nav-link" href="Contact.html" class="sortable">CONTACT</a>
           </li>
+
+
         </ul>
 
       </div>
@@ -49,30 +61,84 @@
     </div>
 
   </nav>
-  <br>
 
+  </header>
 
+<br>
 
+  	<div class="slideShow">
+  	<div id="slides" class="carousel slide" data-ride="carousel">
+  		<ul class="carousel-indicators">
+  			<li data-target="#slides" data-slide-to="0"></li>
+  			<li data-target="#slides" data-slide-to="1" class="active"></li>
+  			<li data-target="#slides" data-slide-to="2"></li>
+  			<li data-target="#slides" data-slide-to="3"></li>
+  		</ul>
+  		<div class="carousel-inner"  class="animated fadeIn">
+  			<div class="carousel-item active">
+  				<img src="img/projects.png"  >
+  				<div class="carousel-caption">
+  					<h2 class="animated bounceInLeft">Projects</h2>
+  				</div>
 
-  <div id="slides" class="carousel slide" data-ride="carousel">
-    <ul class="carousel-indicators">
-      <li data-target="#slides" data-slide-to="0" class="active"></li>
-      <li data-target="#slides" data-slide-to="1"></li>
-      <li data-target="#slides" data-slide-to="2"></li>
-    </ul>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/background2.png">
-
-      </div>
-      <div class="carousel-item">
-        <img src="img/hardware.png">
-      </div>
-      <div class="carousel-item">
-        <img src="img/software.png">
-      </div>
-    </div>
+  			</div>
+  		<!--	<div class="carousel-item">
+  				<img src="img/projects.png">
+  			</div>
+  			<div class="carousel-item">
+  				<img src="img/about.png">
+  			</div>
+  			<div class="carousel-item">
+  				<img src="img/contact.png">
+  			</div>-->
+  		</div>
+  	</div>
   </div>
+  <section>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+			<body class="carterSocial">
+					<div class="SocialMiddle">
+
+						<a class="btn-facebook" href="https://www.facebook.com/carter.stambaugh.9">
+						<i class="fab fa-facebook-f" ></i>
+						</a>
+						<a class="btn-youtube" href="#" >
+							<i class="fab fa-youtube"></i>
+						</a>
+
+						<a class="btn-linkedin" href="https://www.linkedin.com/in/carter-stambaugh-98595a145/" >
+								<i class="fab fa-linkedin-in"></i>
+								</a>
+
+						<a class="btn-instagram" href="https://www.instagram.com/carterman1231/" >
+								<i class="fab fa-instagram"></i>
+						</a>
+						<a  class="btn-twitter" href="https://twitter.com/MrCarte50417752">
+							<i class="fab fa-twitter" ></i>
+							</a>
+
+						<a class="btn-snapchat" data-toggle="modal" data-target="#exampleModalCenter" href="#">
+						<!--	<i data-toggle="modal" data-target="#exampleModalCenter" class="fab fa-snapchat-ghost" style="color:#F4C724;"></i>-->
+									<i class="fab fa-snapchat-ghost"></i>
+						</a>
+
+
+					</div>
+					<br>
+					<br>
+
+				</body>
+
+
+	</section>
+
 
 
 <br>
@@ -81,38 +147,47 @@
 
 
   <section>
-    <br>
-    <br>
-    <div class="container-fluid padding">
-      <div class="row padding">
-        <div class="col-lg-2">
-          <div class="main-nav">
-            <ul class="rotated">
-
-              <a href="#">Featured</a>
-
-            </ul>
-
-          </div>
+  	<div class="threeCard">
 
 
-        </div>
 
-        <div class="col-lg-8">
+  				<br>
 
 
- <a href="https://apps.apple.com/us/app/goal-z/id1473082797?ls=1" title=""><img src="img/GOALZ.png" class="img-fluid"class="img-responsive"></a>
-</div>
-      </div>
+  				<div class="container-fluid padding">
+  					<div class="row padding">
+  						<div class="col-lg-2">
 
-    </div>
-    <br>
-    <br>
+  								<ul class="rotated">
+
+  									<a href="#">Featured</a>
+
+  								</ul>
+
+
+
+
+  						</div>
+
+  						<div class="col-lg-8">
+
+  							<img src="img/GOALZ.png" class="img-fluid">
+  						</div>
+
+  					</div>
+
+  				</div>
+
+  				<br>
+
+  			</div>
 
   </section>
 
-  <section>
 
+
+
+<div class="Hardware-Software-navbar">
 
 
   <ul class="nav nav-pills nav-fill nav-light bg-light">
@@ -121,9 +196,12 @@
     <li class="nav-item"><a class="nav-link nav-link-color" data-toggle="tab" href="#menu1" class="footer_title">Software</a></li>
 
   </ul>
-  </section>
+
+  </div>
+
   <hr>
   <br>
+
 
 
   <div class="tab-content">
@@ -193,8 +271,11 @@
 
 
         </div>
+        <br>
+        <br>
 
 </section>
+
 
 
 
@@ -305,6 +386,8 @@
 
 
   <footer>
+    <br>
+    <br>
 
 	<div class="container-fluid padding">
 	<div class="row text-center">
@@ -365,32 +448,56 @@
 		</div>
 		</div>
 
-  <section>
+    <section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
-    <div class="container-fluid padding">
-    <div class="row text-center padding">
-      <div class="col-6">
+
+    <body class="carterSocialFooter">
+      <div class="SocialMiddleFooter">
+
+        <a class="btn-footer" href="https://www.facebook.com/carter.stambaugh.9">
+        <i class="fab fa-facebook-f" ></i>
+        </a>
+        <a  class="btn-footer" href="https://twitter.com/MrCarte50417752">
+          <i class="fab fa-twitter" ></i>
+          </a>
+
+        <a class="btn-footer" href="https://www.linkedin.com/in/carter-stambaugh-98595a145/" >
+            <i class="fab fa-linkedin-in" ></i>
+
+            </a>
+
+
+
+
+        <a class="btn-footer" href="https://www.instagram.com/carterman1231/" >
+            <i class="fab fa-instagram" ></i>
+        </a>
+        <a class="btn-footer" href="#" >
+          <i class="fab fa-youtube" ></i>
+        </a>
+        <a class="btn-footer" >
+          <i data-toggle="modal" data-target="#exampleModalCenter" class="fab fa-snapchat-ghost" style="color:#3498db;"></i>
+        </a>
+
 
       </div>
 
-      <div class="col-12 social padding" style="font-size: 0.5rem" class ="social">
+    </body>
 
-        <a href="https://www.facebook.com/carter.stambaugh.9"><i class="fab fa-facebook-square fa-sm" style="color:black;"></i></a>
-        <a href="https://twitter.com/MrCarte50417752" title="TWITTER"><i class="fab fa-twitter fa-sm" style="color:black;"></i></a>
-        <a href="https://www.linkedin.com/in/carter-stambaugh-98595a145/"><i class="fab fa-linkedin-in fa-sm" style="color:black;"></i></a>
-        <a href="https://www.instagram.com/carterman1231/"><i class="fab fa-instagram fa-sm" style="color:black;"></i></a>
-        <a href="#"><i class="fab fa-youtube fa-sm" style="color:black;"></i></a>
-      	<a><i data-toggle="modal" data-target="#exampleModalCenter" class="fab fa-snapchat-ghost fa-sm" style="color:black;"></i></a>
-      </div>
-    </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+<br>
+<br>
+<br>
+<br>
+
+
 
   </section>
 
@@ -399,8 +506,12 @@
 
 
 
+</div>
+</div>
 
-
+<script type="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+<script src="skycons.js"></script>
+<script src="app.js"></script>
 
 
 </body>
